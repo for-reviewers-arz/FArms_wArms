@@ -23,7 +23,7 @@ warnings.filterwarnings('ignore')
 from farm.mosi_reg import MOSIDatasetRegression
 
 # Dataset paths
-_dpath = "/home/hismkhan/_Dataset/"
+_dpath = "/home/_Dataset/"
 AUDIO_DIR = _dpath + "Raw - CMU Multimodal Opinion Sentiment Intensity/Audio/WAV_16000/Segmented"
 VIDEO_DIR = _dpath + "Raw - CMU Multimodal Opinion Sentiment Intensity/Video/Segmented"
 TEXT_DIR = _dpath + "Raw - CMU Multimodal Opinion Sentiment Intensity/Transcript/Segmented"
