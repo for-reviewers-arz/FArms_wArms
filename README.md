@@ -1,5 +1,7 @@
 # FArms & wArms — Federated Multi-Modal Learning with Simulating Arms for Missing Modalities
 
+<span style="color: red; font-weight: bold;">The low accuracy of the Flex-MOE and PEPSY methods on MM-IMDB were largely resolved - please see the bottom of this section</span>
+
 > Official implementation of the paper **"FArms: Federated Multi-Modal Learning with Simulating Arms for Missing Modalities"** (to be submitted as soon as possible).
 
 FArms handles arbitrary missing modalities in multi-modal learning by training lightweight **simulating arms** — bidirectional pairwise simulators and multi-head-attention-based fusion simulators — that reconstruct missing modality embeddings on the fly from available ones. The framework supports both **centralized** (`wArms`) and **federated** (`FArms`) settings, and works for both classification and regression tasks.
