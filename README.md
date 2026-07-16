@@ -1,7 +1,7 @@
 # FArms & wArms — Federated Multi-Modal Learning with Simulating Arms for Missing Modalities
 
 > [!CAUTION]
-> The low accuracy of the Flex-MOE and PEPSY methods on MM-IMDB were largely resolved - please see the bottom of this section
+> ***The low accuracy of the Flex-MOE and PEPSY methods on MM-IMDB were largely resolved - please see the bottom of this section***
 
 > Official implementation of the paper **"FArms: Federated Multi-Modal Learning with Simulating Arms for Missing Modalities"** (to be submitted as soon as possible).
 
