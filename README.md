@@ -205,8 +205,8 @@ results-n_10-r_2-e_5-<config>.json
 ---
 
 > [!CAUTION]
-> ***The low accuracy of the Flex-MOE and PEPSY methods on MM-IMDB were largely resolved - please see the bottom of this section***
-> For Flex-MOE we utilized CLIP as image encoder instead its own one, but for PEPSY, after fine-tuning, still f1-macro is low:
+***The low accuracy of the Flex-MOE and PEPSY methods on MM-IMDB were largely resolved - please see the bottom of this section***
+For Flex-MOE we utilized CLIP as image encoder instead its own one, but for PEPSY, after fine-tuning, still f1-macro is low:
 **MM-IMDB — PEPSY results (mean)**
 
 | Setting            | f-micro | f-macro |
