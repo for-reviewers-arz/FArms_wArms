@@ -204,6 +204,21 @@ results-n_10-r_2-e_5-<config>.json
 
 ---
 
+> [!CAUTION]
+> ***The low accuracy of the Flex-MOE and PEPSY methods on MM-IMDB were largely resolved - please see the bottom of this section***
+> For Flex-MOE we utilized CLIP as image encoder instead its own one, but for PEPSY, after fine-tuning, still f1-macro is low:
+>mmimdb - pepsy
+
+results (mean):
+                              f-micro     f-macro
+100_image_100_text             0.4976      0.2046
+100_image_20_text              0.4388      0.1244
+20_image_100_text              0.4477      0.1314
+complex_10_45_45               0.3781      0.0859
+complex_20_40_40               0.3970      0.1040
+complex_30_35_35               0.4388      0.1379
+> 
+
 ### Federated — FArms on CMU-MOSI
 
 ```bash
